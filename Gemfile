@@ -16,7 +16,7 @@ group :development do
   gem "rubocop-minitest", require: false
   gem "rubocop-performance", require: false
   gem "rubocop-rake", require: false
-  gem "rubocop-shopify", require: false
+  gem "rubocop-shopify", ">= 2.13.0", require: false
   gem "rubocop", require: false
   gem "ruby-lsp", require: false
   gem "pry-byebug", require: false
