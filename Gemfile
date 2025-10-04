@@ -13,11 +13,11 @@ group :development do
   gem "minitest-focus", require: false
   gem "rake-compiler"
   gem "rake", "~> 13.0"
-  gem "rubocop-minitest", require: false
-  gem "rubocop-performance", require: false
-  gem "rubocop-rake", require: false
-  gem "rubocop-shopify", require: false
-  gem "rubocop", require: false
+  gem "rubocop-minitest", ">= 0.28.0", require: false
+  gem "rubocop-performance", ">= 1.17.0", require: false
+  gem "rubocop-rake", ">= 0.7.0", require: false
+  gem "rubocop-shopify", ">= 2.13.0", require: false
+  gem "rubocop", ">= 1.66.0", require: false
   gem "ruby-lsp", require: false
   gem "pry-byebug", require: false
 end
